@@ -70,18 +70,21 @@ function cookieClick() {
         upgradeLevel.innerHTML = "Marco II"
     }
     if(num >= 3000000000000000){
-        num += 10000000000
+        num += 1000000000000000
         upgradeLevel.innerHTML = "Marco III"
     }
-    if (num >= 100000000000000000000000){
+    if (num >= 100000000000000000){
         num += 100000000000000000
         upgradeLevel.innerHTML = "Marco IV"
     } 
-    if(num >= 10000000000000000000000000000){
+    if(num >= 100000000000000000000000000000){
+        num >= 1000000000000000000000
+        upgradeLevel.innerHTML = "Marco V"
+    }
+    if(num >= 10000000000000000000000000000000000){
         num += 1000000000000000000000000000000000000000000000000000000000
         upgradeLevel.innerHTML = "Nuova Dimensione Sbloccata!"
         upgradeDimesion.innerHTML = "Clicca qui!"
     }
 
 }
-//fine funzione

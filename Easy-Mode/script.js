@@ -19,67 +19,79 @@ function cookieClick() {
         num += 0.5;
         upgradeLevel.innerHTML = "Tik-toker";
     }
-    if(num >= 0.2){
+    if(num >= 0.02){
         num += 1
         upgradeLevel.innerHTML = "Youtuber"
     }
-    if(num >= 0.6){
+    if(num >= 0.06){
         num += 2
         upgradeLevel.innerHTML = "Streamer"
     }
-    if(num >= 3){
+    if(num >= 0.3){
         num +=5
         upgradeLevel.innerHTML = "Streamer + Donation"
     }
-    if(num >= 10){
+    if(num >= 1){
         num +=10
         upgradeLevel.innerHTML = "Streamer Famoso"
     }
-    if(num >= 50){
+    if(num >= 5){
         num +=50
         upgradeLevel.innerHTML = "Streamer Famoso + Donation"
     }
-    if(num >= 500){
+    if(num >= 50){
         num +=100
         upgradeLevel.innerHTML = "Contadino"
     }
-    if(num >= 2000){
+    if(num >= 200){
         num +=500
         upgradeLevel.innerHTML = "Cuoco"
     }
-    if(num >= 25000){
+    if(num >= 2500){
         num += 1000
         upgradeLevel.innerHTML = "Dipendente(Industia)"
     }
-    if(num >= 400000){
+    if(num >= 10000){
+        num += 1500
+        upgradeLevel.innerHTML = "Dipendente(Agenzia)"
+    }
+    if(num >= 22500){
+        num += 20000
+        upgradeLevel.innerHTML = "Capo(Agenzia)"
+    }
+    if(num >= 40000){
         num += 100000
         upgradeLevel.innerHTML = "Capo di PH"
     }
-    if(num >= 500000000){
+    if(num >= 50000000){
         num += 1000000
         upgradeLevel.innerHTML = "Capo di NH"
     }
-    if(num >= 750000000){
+    if(num >= 75000000){
         num += 1000000000
         upgradeLevel.innerHTML = "Mojang"
     }
-    if(num >= 1000000000000){
+    if(num >= 100000000000){
         num += 2500000000
         upgradeLevel.innerHTML = "Marco I"
     }
-    if(num >= 3750000000000){
+    if(num >= 375000000000){
         num += 5000000000
         upgradeLevel.innerHTML = "Marco II"
     }
-    if(num >= 30000000000000){
-        num += 10000000000
+    if(num >= 3000000000000){
+        num += 1000000000000000
         upgradeLevel.innerHTML = "Marco III"
     }
-    if (num >= 1000000000000000000000){
+    if (num >= 100000000000000000){
         num += 100000000000000000
         upgradeLevel.innerHTML = "Marco IV"
     } 
-    if(num >= 100000000000000000000000000){
+    if(num >= 1000000000000000000000000000){
+        num >= 1000000000000000000000
+        upgradeLevel.innerHTML = "Marco V"
+    }
+    if(num >= 100000000000000000000000000000000){
         num += 1000000000000000000000000000000000000000000000000000000000
         upgradeLevel.innerHTML = "Nuova Dimensione Sbloccata!"
         upgradeDimesion.innerHTML = "Clicca qui!"

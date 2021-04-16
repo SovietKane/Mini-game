@@ -79,7 +79,15 @@ function cookieClick() {
         num += 100000000000000000
         upgradeLevel.innerHTML = "Marco IV"
     } 
-    if(num >= 1000000000000000000000000000){
+    if (num >= 1000000000000000000){
+        num += 100000000000000000
+        upgradeLevel.innerHTML = "Marco IV"
+    } 
+    if(num >= 10000000000000000000000000000){
+        num >= 1000000000000000000000
+        upgradeLevel.innerHTML = "Marco V"
+    }
+    if(num >= 1000000000000000000000000000000000){
         num += 1000000000000000000000000000000000000000000000000000000000
         upgradeLevel.innerHTML = "Nuova Dimensione Sbloccata!"
         upgradeDimesion.innerHTML = "Clicca qui!"
