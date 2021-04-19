@@ -97,5 +97,6 @@ function cookieClick() {
         upgradeDimesion.innerHTML = "Clicca qui!"
     }
 
+
 }
 //fine funzione
