@@ -10,6 +10,7 @@ function cookieClick() {
     
     //upgrade level for printing
     var upgradeLevel = document.getElementById("upgradeLevel");
+    var upgradeDimesion = document.getElementById("upgradeDimension")
     
     numbers.innerHTML = num + "€";      
     //automatic tik-toker to 0.5x
