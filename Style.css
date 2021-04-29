@@ -1,0 +1,180 @@
+body{
+    background-color: #D7C0E3   ;
+}
+/*Testo*/
+footer#Epilettico{
+    position: absolute;
+    left:100px;
+    bottom:0px;
+    font-size: 30px;
+}
+footer#Discord{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    font-size: 30px;
+}
+h1#Work-In-Progress{
+    font-style: italic;
+    position: absolute;
+    margin: 0px;
+    right: 820px;
+    text-decoration-line: overline;
+}
+h1#Titolo{
+    font-style: italic;
+    position: absolute;
+    margin: 0px;
+    right: 820px;
+    text-decoration-line: overline;
+
+}
+/*tabella*/
+table {
+    border-collapse:collapse
+    }
+    td, th {
+    border:1px solid rgb(252, 0, 0);
+    padding:8px;
+    }
+/*link*/
+a#aNoel{
+    text-emphasis:initial;
+    text-decoration-line: none;
+    color: green;
+}
+a{
+    text-decoration-line: none;
+    color: darkmagenta;
+}
+a#Clicca-qui{
+    position: Absolute;
+    top: 275px;
+}
+a#Clicca-qui-felt{
+    position: Absolute;
+    top: 375px;
+}
+a#Clicca-qui-C-18{
+    position: Absolute;
+    top: 775px;
+}
+a#Clicca-qui-Leafa{
+    position: Absolute;
+    top: 525px;
+}
+img#Logo{
+    position: Absolute;
+    left:803px;
+    top: 380px;
+
+}
+/*Bottoni*/
+button#H{
+    position: Absolute;
+    top: 375px;
+    left: 60px;
+    font-family:cursive;
+    font-size: 210px;
+}
+button#E{
+    /*666.66666*/
+    /*left:850*/
+    position: Absolute;
+    top: 375px;
+    font-family:cursive;
+    left: 1280px;
+    font-size: 210px;
+}
+/*
+button#N{
+    position: Absolute;
+    top: 250px;
+
+}
+button#T{
+    position: Absolute;
+    top: 275px;
+
+}
+button#A{
+
+    position: Absolute;
+    top: 300px;
+}
+button#I{
+
+    position: Absolute;
+    top: 325px;
+}
+*/
+button#Rem{
+    position: Absolute;
+    top: 200px;
+}
+button#Ram{
+    position: Absolute;
+    top: 225px;
+}
+button#Emilia{
+    position: Absolute;
+    top: 250px;
+}
+button#Felix-Argyle{
+    position: Absolute;
+    top: 275px;
+}
+button#Felt{
+    position: Absolute;
+    top: 300px;
+}
+button#Theresia-Van-Astrea{
+    position: Absolute;
+    top: 325px;
+}
+/*div*/
+div#Descrizione{
+    position: Absolute;
+    top: 200px;
+}
+footer#minigame{
+    position: Absolute;
+    bottom: 0px;
+    left: 415px;
+}
+button#easy{
+    color: chartreuse;
+    position: absolute;
+    text-align: start;
+    /*top: 0px;*/
+    font-size: 50px;
+}
+button#normal{
+    position: absolute;
+    top: 270px;
+    text-align: center;
+    color: coral;
+    /*
+    top: 75px;*/
+    font-size: 50px;
+}
+button#hard{
+    color: crimson;
+    position: absolute;
+    text-align: end;
+    /*top:150px;*/
+    top: 540px;
+    font-size: 50px;
+
+}
+button#creative{
+    color: darkmagenta;
+    position: absolute;
+    top: 810px;
+    font-size: 50px;
+
+}
+footer#Avvertimento{
+    color: rgb(252, 227, 0);
+
+}
